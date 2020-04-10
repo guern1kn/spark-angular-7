@@ -5,7 +5,7 @@ import { RouterTestingModule } from '@angular/router/testing';
   selector: 'sprk-promo-docs',
   template: `
     <div class="drizzle-o-ContentGrouping sprk-u-mbh">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Promo Base</h2>
 
         <sprk-promo
@@ -25,7 +25,7 @@ import { RouterTestingModule } from '@angular/router/testing';
     </div>
 
     <div class="drizzle-o-ContentGrouping sprk-u-mbh">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Flag Promo</h2>
 
         <sprk-promo
@@ -42,7 +42,7 @@ import { RouterTestingModule } from '@angular/router/testing';
     </div>
 
     <div class="drizzle-o-ContentGrouping sprk-u-mbh">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Promo With Image</h2>
 
         <sprk-promo
@@ -63,7 +63,7 @@ import { RouterTestingModule } from '@angular/router/testing';
     </div>
 
     <div class="drizzle-o-ContentGrouping sprk-u-mbh">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Promo With Reversed Image</h2>
 
         <sprk-promo

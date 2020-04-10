@@ -191,7 +191,7 @@ import { Component } from '@angular/core';
         </ul>
       </sprk-masthead>
 
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Masthead (Extended)</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting

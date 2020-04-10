@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
         Award split at small breakpoint
       </h2>
 
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <sprk-award
           splitAt="small"
           title="Spark Award Component"
@@ -33,7 +33,7 @@ import { Component, OnInit } from '@angular/core';
         Award split at medium breakpoint
       </h2>
 
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <sprk-award
           splitAt="medium"
           title="Spark Award Component"
@@ -57,7 +57,7 @@ import { Component, OnInit } from '@angular/core';
         Award split at large breakpoint
       </h2>
 
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <sprk-award
           splitAt="large"
           title="Spark Award Component"
@@ -81,7 +81,7 @@ import { Component, OnInit } from '@angular/core';
         Award split at huge breakpoint
       </h2>
 
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <sprk-award
           splitAt="huge"
           title="Spark Award Component"
@@ -105,7 +105,7 @@ import { Component, OnInit } from '@angular/core';
         Award With Disclaimer set to false
       </h2>
 
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <sprk-award
           disclaimer="false"
           splitAt="huge"

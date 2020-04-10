@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'sprk-highlight-board-docs',
   template: `
     <div class="drizzle-o-ContentGrouping">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Highlight Board Default</h2>
 
         <sprk-highlight-board
@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
     </div>
 
     <div class="drizzle-o-ContentGrouping">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Highlight Board Default 2</h2>
 
         <sprk-highlight-board
@@ -36,7 +36,7 @@ import { Component } from '@angular/core';
     </div>
 
     <div class="drizzle-o-ContentGrouping">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Highlight Board With No Image</h2>
 
         <sprk-highlight-board
@@ -51,7 +51,7 @@ import { Component } from '@angular/core';
     </div>
 
     <div class="drizzle-o-ContentGrouping">
-      <div class="sprk-o-CenteredColumn">
+      <div sprkCenteredColumn>
         <h2 class="drizzle-b-h2">Highlight Board Stacked</h2>
 
         <sprk-highlight-board
