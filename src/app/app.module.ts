@@ -12,6 +12,7 @@ import { SparkAngularModule } from '@sparkdesignsystem/spark-angular';
 import { AccordionDocsComponent } from './spark-docs/accordion-docs/accordion-docs.component';
 import { AlertDocsComponent } from './spark-docs/alert-docs/alert-docs.component';
 import { AwardDocsComponent } from './spark-docs/award-docs/award-docs.component';
+import { BoxDocsComponent } from './spark-docs/box-docs/box-docs.component';
 import { ButtonDocsComponent } from './spark-docs/button-docs/button-docs.component';
 import { CardDocsComponent } from './spark-docs/card-docs/card-docs.component';
 import { DictionaryDocsComponent } from './spark-docs/dictionary-docs/dictionary-docs.component';
@@ -60,6 +61,7 @@ const appRoutes: Routes = [
   { path: 'dictionary', component: DictionaryDocsComponent },
   { path: 'pagination', component: PaginationDocsComponent },
   { path: 'highlight-board', component: HighlightBoardDocsComponent },
+  { path: 'box', component: BoxDocsComponent },
   { path: '', component: IntroDocsComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
@@ -69,6 +71,7 @@ const appRoutes: Routes = [
     AppComponent,
     AlertDocsComponent,
     AccordionDocsComponent,
+    BoxDocsComponent,
     ButtonDocsComponent,
     CardDocsComponent,
     PageNotFoundComponent,

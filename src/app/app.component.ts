@@ -23,6 +23,10 @@ export class AppComponent {
       href: "/award"
     },
     {
+      text: "Box",
+      href: "/box"
+    },
+    {
       text: "Button",
       href: "/button"
     },
