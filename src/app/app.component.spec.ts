@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'test-project'`, () => {
+  it(`should have as title 'spark-starter-angular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('test-project');
+    expect(app.title).toEqual('spark-starter-angular');
   });
 
-  it('should render title in a h1 tag', () => {
+  it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to test-project!');
+    expect(compiled.querySelector('.content span').textContent).toContain('spark-starter-angular app is running!');
   });
 });
