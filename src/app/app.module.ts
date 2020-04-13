@@ -37,6 +37,7 @@ import { StackDocsComponent } from './spark-docs/stack-docs/stack-docs.component
 import { TabbedNavigationDocsComponent } from './spark-docs/tabbed-navigation-docs/tabbed-navigation-docs.component';
 import { TableDocsComponent } from './spark-docs/table-docs/table-docs.component';
 import { ToggleDocsComponent } from './spark-docs/toggle-docs/toggle-docs.component';
+import { TypographyDocsComponent } from './spark-docs/typography-docs/typography-docs.component';
 
 const appRoutes: Routes = [
   { path: 'alerts', component: AlertDocsComponent },
@@ -64,6 +65,7 @@ const appRoutes: Routes = [
   { path: 'pagination', component: PaginationDocsComponent },
   { path: 'highlight-board', component: HighlightBoardDocsComponent },
   { path: 'box', component: BoxDocsComponent },
+  { path: 'typography', component: TypographyDocsComponent },
   { path: '', component: IntroDocsComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
@@ -98,7 +100,8 @@ const appRoutes: Routes = [
     TabbedNavigationDocsComponent,
     DictionaryDocsComponent,
     PaginationDocsComponent,
-    HighlightBoardDocsComponent
+    HighlightBoardDocsComponent,
+    TypographyDocsComponent,
   ],
   imports: [
     BrowserAnimationsModule,

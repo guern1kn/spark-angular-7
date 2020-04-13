@@ -113,7 +113,11 @@ export class AppComponent {
     {
       text: "Toggle",
       href: "/toggle"
-    }
+    },
+    {
+      text: "Typography",
+      href: "/typography"
+    },
   ];
 
   path = "";
