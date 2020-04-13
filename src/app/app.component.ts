@@ -47,6 +47,10 @@ export class AppComponent {
       href: "/dropdown"
     },
     {
+      text: "Flag",
+      href: "/flag"
+    },
+    {
       text: "Footer",
       href: "/footer"
     },
